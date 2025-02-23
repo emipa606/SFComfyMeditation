@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseMeditationCushion">
+    <defName>FlameMeditationCushion</defName>
+    <label>flame meditation cushion</label>
+    <description>A big comfy cushion upon which to contemplate the universe. Flame psycasters will appreciate this one's firey design.</description>
+    <graphicData>
+      <texPath>Flame</texPath>
+    </graphicData>
+  </ThingDef>
+</Defs>

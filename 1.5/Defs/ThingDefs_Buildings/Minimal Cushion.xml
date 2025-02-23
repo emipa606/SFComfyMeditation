@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseMeditationCushion">
+    <defName>MinimalistMeditationCushion</defName>
+    <label>minimalist meditation cushion</label>
+    <description>A big comfy cushion upon which to contemplate the universe. Minimalist psycasters will appreciate this one's simplistic design.</description>
+    <statBases>
+      <Beauty>0</Beauty>
+      <MeditationFocusStrength>0.15</MeditationFocusStrength>
+    </statBases>
+    <graphicData>
+      <texPath>Minimal</texPath>
+    </graphicData>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseMeditationCushion">
+    <defName>MorbidMeditationCushion</defName>
+    <label>morbid meditation cushion</label>
+    <description>A big comfy cushion upon which to contemplate the universe. Morbid psycasters will appreciate this one's dark design.</description>
+    <graphicData>
+      <texPath>Morbid</texPath>
+    </graphicData>
+  </ThingDef>
+</Defs>

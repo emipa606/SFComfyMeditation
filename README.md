@@ -1,4 +1,4 @@
-# [SF Comfy Meditation (Continued)]()
+# [SF Comfy Meditation (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3432727841)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -35,10 +35,6 @@ If I don't respond to permission requests for 1 year, permission is granted for 
    HUGE thanks to legodude17 for writing the C# part of this mod! I couldn't have done this without you!
    Also huge thanks to the Rimworld discord modding community which has been utterly essential in helping me learn enough xml to code a mod like this! Thank you all!
    
-»-(¯`·.·´¯)-Modder Luv-(¯`·.·´¯)-«
-If my mod is a Must Have! or you like it enough to toss me a couple smackaroos, please click this button and send me a donation to help me keep the lights on so I can keep modding!
-[![Image](https://i.imgur.com/OIaF4in.png)](https://ko-fi.com/sheifoxy)
-
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
@@ -51,4 +47,6 @@ If my mod is a Must Have! or you like it enough to toss me a couple smackaroos, 
 -  If you have the solution for a problem, please post it to the GitHub repository.
 -  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
+[![Image](https://img.shields.io/github/v/release/emipa606/SFComfyMeditation?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3432727841) | tags:  cushions,  comfort

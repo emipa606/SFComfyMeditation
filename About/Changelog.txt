@@ -1,4 +1,7 @@
 # Changelog for SFComfyMeditation
 
+1.5.1 - Missed the royalty reuirement in the about-file
+
+
 1.5.0 - First publish
 

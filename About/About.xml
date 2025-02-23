@@ -16,9 +16,15 @@
       <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
       <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
     </li>
+    <li>
+      <packageId>Ludeon.Rimworld.Royalty</packageId>
+      <displayName>Rimworld Royalty</displayName>
+      <downloadUrl>https://store.steampowered.com/app/1149640/RimWorld__Royalty/</downloadUrl>
+    </li>
   </modDependencies>
   <loadAfter>
     <li>brrainz.harmony</li>
+    <li>Ludeon.Rimworld.Royalty</li>
   </loadAfter>
   <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of SheiFoxys mod https://steamcommunity.com/sharedfiles/filedetails/?id=2593876906
@@ -62,10 +68,6 @@ If I don't respond to permission requests for 1 year, permission is granted for 
    HUGE thanks to legodude17 for writing the C# part of this mod! I couldn't have done this without you!
    Also huge thanks to the Rimworld discord modding community which has been utterly essential in helping me learn enough xml to code a mod like this! Thank you all!
    
-»-(¯`·.·´¯)-Modder Luv-(¯`·.·´¯)-«
-If my mod is a Must Have! or you like it enough to toss me a couple smackaroos, please click this button and send me a donation to help me keep the lights on so I can keep modding!
-[url=https://ko-fi.com/sheifoxy][img]https://i.imgur.com/OIaF4in.png[/img][/url]
-
 [img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
@@ -75,6 +77,8 @@ If my mod is a Must Have! or you like it enough to toss me a couple smackaroos, 
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.0</modVersion>
+[/list] 
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3432727841][img]https://img.shields.io/github/v/release/emipa606/SFComfyMeditation?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  cushions,  comfort</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
 </ModMetaData>

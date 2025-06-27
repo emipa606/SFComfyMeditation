@@ -1,5 +1,8 @@
 # Changelog for SFComfyMeditation
 
+1.6.0 - Mod updated for 1.6 and passed autotests
+
+
 1.5.1 - Missed the royalty reuirement in the about-file
 
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseMeditationCushion">
+    <defName>NatureMeditationCushion</defName>
+    <label>nature meditation cushion</label>
+    <description>A big comfy cushion upon which to contemplate the universe. Nature psycasters will appreciate this one's natural design.</description>
+    <building>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+    </building>
+    <graphicData>
+      <texPath>Nature</texPath>
+    </graphicData>
+  </ThingDef>
+</Defs>

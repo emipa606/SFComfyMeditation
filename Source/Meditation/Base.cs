@@ -12,7 +12,7 @@ namespace Meditation;
 
 public class Base : Mod
 {
-    public static List<ThingDef> AllMeditationSpots;
+    private static List<ThingDef> allMeditationSpots;
 
     public Base(ModContentPack content) : base(content)
     {
@@ -23,19 +23,19 @@ public class Base : Mod
             transpiler: new HarmonyMethod(typeof(Base), nameof(Transpiler)));
         LongEventHandler.ExecuteWhenFinished(() =>
         {
-            AllMeditationSpots = [ThingDefOf.MeditationSpot];
+            allMeditationSpots = [ThingDefOf.MeditationSpot];
             foreach (var def in DefDatabase<ThingDef>.AllDefs)
             {
                 if (def.HasModExtension<BuildingExtension_MeditationOn>())
                 {
-                    AllMeditationSpots.Add(def);
+                    allMeditationSpots.Add(def);
                 }
             }
         });
     }
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
-    public static Func<ThingDef, IEnumerable<Thing>> AllOnMapOfPawnWithDef(Pawn pawn)
+    private static Func<ThingDef, IEnumerable<Thing>> AllOnMapOfPawnWithDef(Pawn pawn)
     {
         return def => pawn.Map.listerBuildings.AllBuildingsColonistOfDef(def);
     }
@@ -43,7 +43,7 @@ public class Base : Mod
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static IEnumerable<Thing> AllMeditationSpotsForPawn(Pawn pawn)
     {
-        return AllMeditationSpots.SelectMany(AllOnMapOfPawnWithDef(pawn));
+        return allMeditationSpots.SelectMany(AllOnMapOfPawnWithDef(pawn));
     }
 
     public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)

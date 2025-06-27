@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 1562765723
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 86225925ab62312fbc33750215e7ae03
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 86225925ab62312fbc33750215e7ae03
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.SFComfyMeditation/Textures/Dignified.png
+- Assets/Data/Mlie.SFComfyMeditation/Textures/Morbidm.png
+- Assets/Data/Mlie.SFComfyMeditation/Textures/Dignifiedm.png
+- Assets/Data/Mlie.SFComfyMeditation/Textures/Minimal.png
+- Assets/Data/Mlie.SFComfyMeditation/Textures/Flamem.png
+- Assets/Data/Mlie.SFComfyMeditation/Textures/Flame.png
+- Assets/Data/Mlie.SFComfyMeditation/Textures/Artisticm.png
+- Assets/Data/Mlie.SFComfyMeditation/Textures/Artistic.png
+- Assets/Data/Mlie.SFComfyMeditation/Textures/Nature.png
+- Assets/Data/Mlie.SFComfyMeditation/Textures/Naturem.png
+- Assets/Data/Mlie.SFComfyMeditation/Textures/Morbid.png
+Dependencies: []

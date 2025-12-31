@@ -2,11 +2,17 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "LastXmlCleaning": "2025-06-27T21:30:12.519489+02:00",
+  "LastXmlCleaning": "2025-12-31T22:02:29.6109028+01:00",
   "SocialImageSet": true,
   "SearchTags": [
     " cushions",
     " comfort"
   ],
-  "PreviewVersion": "1.6"
+  "PreviewVersion": "1.6",
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 4123,
+  "LinesOfXML": 8284,
+  "CodeBaseSize": 64
 }

@@ -29,9 +29,13 @@
     </researchPrerequisites>
     <pathCost>20</pathCost>
     <fillPercent>0.15</fillPercent>
+    <ideoBuilding>true</ideoBuilding>
     <building>
       <isSittable>true</isSittable>
       <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+      <buildingTags>
+        <li>RitualSeat</li>
+      </buildingTags>
     </building>
     <uiIconScale>0.7</uiIconScale>
     <graphicData>
@@ -44,9 +48,11 @@
         <drawUnownedAssignmentOverlay>false</drawUnownedAssignmentOverlay>
         <compClass>CompAssignableToPawn_MeditationSpot</compClass>
       </li>
+      <li Class="CompProperties_RitualSeat" MayRequire="Ludeon.RimWorld.Ideology" />
     </comps>
     <placeWorkers>
       <li>PlaceWorker_MeditationSpot</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PlaceWorker_RitualSeat</li>
     </placeWorkers>
     <modExtensions>
       <li Class="Meditation.BuildingExtension_MeditationOn" />

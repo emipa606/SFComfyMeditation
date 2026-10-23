@@ -49,4 +49,4 @@ If I don't respond to permission requests for 1 year, permission is granted for 
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/SFComfyMeditation?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3432727841) | tags:  cushions,  comfort
+[![Image](https://img.shields.io/github/v/release/emipa606/SFComfyMeditation?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3432727841) | comfort, cushions

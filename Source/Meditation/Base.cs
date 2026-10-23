@@ -23,13 +23,11 @@ public class Base : Mod
             transpiler: new HarmonyMethod(typeof(Base), nameof(Transpiler)));
         LongEventHandler.ExecuteWhenFinished(() =>
         {
-            allMeditationSpots = [ThingDefOf.MeditationSpot];
-            foreach (var def in DefDatabase<ThingDef>.AllDefs)
+            allMeditationSpots = new List<ThingDef> { ThingDefOf.MeditationSpot };
+            foreach (var def in DefDatabase<ThingDef>.AllDefs.Where(def =>
+                         def.HasModExtension<BuildingExtension_MeditationOn>()))
             {
-                if (def.HasModExtension<BuildingExtension_MeditationOn>())
-                {
-                    allMeditationSpots.Add(def);
-                }
+                allMeditationSpots.Add(def);
             }
         });
     }
